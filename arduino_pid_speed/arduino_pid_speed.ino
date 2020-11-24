@@ -87,7 +87,7 @@ ISR(TIMER1_OVF_vect)                     // interrupt service routine - tick eve
  
  
 //  Serial.print("speed");
-  Serial.println(pv_speed);         //Print speed (rpm) value to Visual Studio
+  Serial.println(pv_speed);         //Print speed (rpm) 
 
   //PID program
   if (motor_start){
